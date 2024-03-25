@@ -19,7 +19,7 @@ else:
              'не пон, как можно ездить без прав?')
 
 # Slider!!!
-age = st.slider('How old are you?', 16, 18)
+age = st.slider('Возраст получения прав', 16, 18)
 if age == 16:
     st.write("Unated States")
 elif age == 17:
