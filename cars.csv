@@ -1,0 +1,8 @@
+un ,cars_per_cap,country,drives_right,age
+US,809,United States,TRUE,16
+AUS,731,Australia,FALSE
+JPN,588,Japan,FALSE
+IN,18,India,FALSE
+RU,200,Russia,TRUE,18
+MOR,70,Morocco,TRUE,18
+EG,45,Egypt,TRUE,18
