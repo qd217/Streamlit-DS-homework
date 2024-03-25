@@ -1,10 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-
-def process_main_page():
-    show_main_page()
-
 df = st.cache_data(pd.read_csv)("cars.csv")
 df = df.rename(columns={'un' : 'Аббревиатура' , 'cars_per_cap' : 'На душу населения' , 'country' : 'Страна' , 'drives_right' : 'Водительские права' , 'age' : 'Возраст'})
 
@@ -57,8 +53,5 @@ filtred = df[(df['Страна'].isin(country))]
 st.write(filtred)
 
 st.dataframe(df)
-
-if name == "main":
-    process_main_page()
 
 
